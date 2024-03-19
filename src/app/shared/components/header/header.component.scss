@@ -1,0 +1,125 @@
+:root {
+    --azul-oscuro: #00324D;
+    --beige: #FBFBE2;
+    --gris-oscuro: #58595B;
+    --gris-suave: #D1D3D4;
+    --verde-suave: #39A900;
+  }
+  
+  * {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  ion-content {
+    --background: #ffffff; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  button{
+  
+    text-decoration: none;
+  }
+  
+  #btn_ingresar{
+   
+    --background: #39A900;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  figure img {
+    margin: 0;
+    width: 100%;
+  }
+  
+  main {
+    margin-top: 70px; /* Ajusta el margen superior según el diseño de tu aplicación */
+  }
+  
+  p {
+    color: #00324D;
+  }
+  
+  #logo_sena {
+    width: 100px;    
+    margin-top: 42px;
+   
+  }
+  
+  #cont_primero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #cont_segundo .Marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Marca p {
+    margin: 0 0 20px 0;
+  }
+  
+  .Marca h1 {
+    color: #00324D;
+  }
+  
+  #zona_superior {
+    border-bottom: solid #39A900 1px;
+  }
+  
+  #zona_inferior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid var(--verde-suave) 42px;
+  }
+  
+  form#ingreso_forma {
+    margin-top: 45px;
+  }
+  
+  form#ingreso_forma ion-input {
+    margin-bottom: 15px;
+    width: 230px;
+    border: none;
+    top: 16px;
+    
+    
+  }
+  
+  .Forma-Ingreso ion-icon {
+    font-size: 35px;
+    transform: translateY(-20%);
+  }
+  
+  
+  
+  #btn_ingresar { 
+    font-size: medium;   
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    padding: 13px;
+    margin-top: 30px;
+    
+  }
+  
+  h4, h3 {
+    text-align: center;
+    color: var(--azul-oscuro);
+  }
+  
+  
+  
